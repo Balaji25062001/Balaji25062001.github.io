@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Balaji Govindarajan | Portfolio</title>
+
   <style>
-    /* Reset & base styles */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #0f172a;
@@ -22,12 +23,10 @@
       align-items: center;
       padding: 20px;
     }
+
     a {
       color: #3b82f6;
       text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
     }
 
     header {
@@ -35,11 +34,12 @@
       margin-top: 50px;
       margin-bottom: 40px;
     }
+
     header h1 {
       font-size: 3rem;
-      margin-bottom: 10px;
       color: #e0e7ff;
     }
+
     header p {
       font-size: 1.2rem;
       color: #94a3b8;
@@ -48,149 +48,190 @@
     section {
       max-width: 900px;
       width: 100%;
-      margin-bottom: 60px;
-    }
-
-    /* About section */
-    #about {
+      margin-bottom: 50px;
       background: #1e293b;
       padding: 30px;
       border-radius: 10px;
     }
-    #about h2 {
+
+    section h2 {
       margin-bottom: 15px;
       color: #60a5fa;
       border-bottom: 2px solid #3b82f6;
       padding-bottom: 5px;
     }
-    #about p {
-      font-size: 1.1rem;
-    }
 
-    /* Skills section */
-    #skills {
-      background: #1e293b;
-      padding: 30px;
-      border-radius: 10px;
-    }
-    #skills h2 {
-      margin-bottom: 15px;
-      color: #60a5fa;
-      border-bottom: 2px solid #3b82f6;
-      padding-bottom: 5px;
-    }
-    #skills ul {
+    ul {
       list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    #skills ul {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
     }
-    #skills ul li {
+
+    #skills li {
       background: #3b82f6;
+      color: #0f172a;
       padding: 8px 15px;
       border-radius: 20px;
-      font-weight: bold;
-      color: #0f172a;
       font-size: 0.9rem;
-    }
-
-    /* Projects section */
-    #projects {
-      background: #1e293b;
-      padding: 30px;
-      border-radius: 10px;
-    }
-    #projects h2 {
-      margin-bottom: 15px;
-      color: #60a5fa;
-      border-bottom: 2px solid #3b82f6;
-      padding-bottom: 5px;
-    }
-    #projects ul {
-      list-style: none;
-    }
-    #projects ul li {
-      margin-bottom: 15px;
-    }
-    #projects ul li a {
-      font-weight: bold;
-      font-size: 1.1rem;
-      color: #3b82f6;
-    }
-
-    /* Contact section */
-    #contact {
-      text-align: center;
-      padding: 20px 0;
-      font-size: 1rem;
-      color: #94a3b8;
-    }
-    #contact a {
-      color: #3b82f6;
       font-weight: bold;
     }
 
-    /* Footer */
     footer {
-      text-align: center;
       margin: 20px 0;
       font-size: 0.9rem;
       color: #475569;
+      text-align: center;
     }
 
-    /* Responsive */
     @media (max-width: 600px) {
       header h1 {
         font-size: 2rem;
       }
-      section {
-        margin-bottom: 40px;
-      }
     }
   </style>
 </head>
+
 <body>
+
+  <!-- Header -->
   <header>
     <h1>Balaji Govindarajan</h1>
-    <p>Web Developer | Programmer | Tech Enthusiast</p>
+    <p>Data Science & Artificial Intelligence Student</p>
   </header>
 
+  <!-- About -->
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Hello! I'm Balaji, a passionate web developer with skills in building responsive and user-friendly websites. I love coding, learning new technologies, and creating beautiful digital experiences.
+      I am a Master’s student in Data Science and Artificial Intelligence, actively seeking a
+      Data Science internship to apply my skills in machine learning, data preprocessing, and
+      model evaluation. I have hands-on experience in AI and am motivated to contribute to
+      impactful, data-driven solutions.
     </p>
   </section>
 
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <strong>Master’s in Data Science & Artificial Intelligence</strong><br>
+        Université Côte d’Azur, France<br>
+        2025 – Present
+      </li>
+      <li>
+        <strong>B.E. in Electronics & Communication Engineering</strong><br>
+        Panimalar Engineering College, India<br>
+        2019 – 2023<br>
+        CGPA: 8.92 / 10
+      </li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Associate Software Engineer</strong><br>
+        Prodapt, Chennai, India<br>
+        Jan 2024 – Jul 2025
+        <ul>
+          <li>Worked on Salesforce-based order management systems</li>
+          <li>Supported MATRIXX billing operations and service workflows</li>
+          <li>Customized and optimized queries using Salesforce Query Language (SOQL)</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
   <section id="skills">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Git & GitHub</li>
-      <li>Node.js</li>
+      <li>Python</li>
+      <li>Machine Learning</li>
+      <li>Deep Learning</li>
+      <li>CNNs</li>
+      <li>PyTorch</li>
+      <li>Pandas</li>
+      <li>Scikit-learn</li>
+      <li>R</li>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>Git</li>
+      <li>Salesforce</li>
+      <li>HTML & CSS</li>
     </ul>
   </section>
 
+  <!-- Projects -->
   <section id="projects">
-    <h2>Projects</h2>
+    <h2>Academic Projects</h2>
     <ul>
-      <li><a href="https://github.com/Balaji25062001/project1" target="_blank">Project One</a> – A responsive portfolio website.</li>
-      <li><a href="https://github.com/Balaji25062001/project2" target="_blank">Project Two</a> – JavaScript game built with HTML5 canvas.</li>
-      <li><a href="https://github.com/Balaji25062001/project3" target="_blank">Project Three</a> – Simple REST API with Node.js.</li>
+      <li>
+        <strong>Web of Data Project: Recipe–Company RDF Graph</strong><br>
+        Designed and implemented an RDF ontology modeling recipes, menus, subscriptions,
+        orders, and reviews. Built a linked data graph with 1,643 triples.
+      </li>
+      <li>
+        <strong>Statistical Analysis in R: ECDF & Kolmogorov–Smirnov Test</strong><br>
+        Implemented ECDF from scratch and applied KS tests to assess distribution fit.
+      </li>
+      <li>
+        <strong>CNN Object Recognition System</strong><br>
+        Developed an object recognition system to assist visually impaired users using
+        convolutional neural networks.
+      </li>
+      <li>
+        <strong>AI Communication System</strong><br>
+        Built a real-time AI-powered communication platform for specially-abled individuals.
+      </li>
+      <li>
+        <strong>Home Line Security (IoT)</strong><br>
+        Designed and implemented an IoT-based home security system. Project presented at
+        PECTEAM 2K20.
+      </li>
     </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:balaji@example.com">balaji@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/Balaji25062001" target="_blank">github.com/Balaji25062001</a></p>
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Advanced Diploma in Java (Grade A)</li>
+      <li>Barclays Life Skills Program</li>
+    </ul>
   </section>
 
+  <!-- Languages -->
+  <section id="languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>English – Fluent (C1)</li>
+      <li>Tamil – Native</li>
+      <li>French – Elementary (A2)</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:balajigovindarajan2001@gmail.com">balajigovindarajan2001@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
   <footer>
     &copy; 2026 Balaji Govindarajan. All rights reserved.
   </footer>
+
 </body>
 </html>
